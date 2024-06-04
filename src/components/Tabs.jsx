@@ -6,7 +6,7 @@ Tabs.propTypes = {
     ButtonContainer: propTypes.any
 }
 
-export default function Tabs({children, buttons, ButtonContainer}) {
+export default function Tabs({children, buttons, ButtonContainer="menu"}) {
     return <>
         <ButtonContainer>
             {buttons}
